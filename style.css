@@ -1,0 +1,41 @@
+body{
+background-color : #00C1D4;
+}
+.h4
+{
+ margin-top:200px;
+ padding:10px;
+}
+.login
+{
+   margin-top:200px;
+   margin-right:500px;
+   margin-left:500px;
+   margin-bottom:200px;
+   padding:30px;
+}
+#user
+{
+  margin-bottom:25px;
+  margin-top:25px;
+}
+#pwd
+{
+margin-bottom:30px;
+}
+#bt
+{
+    font-size:10px;
+    border-radius:5px;
+    padding:5px;
+    width:100px;
+}
+#bt:hover
+{
+   background-color:#00C1D4;
+}
+.login:hover
+{
+opacity : 0.8;
+background-color:white;
+}

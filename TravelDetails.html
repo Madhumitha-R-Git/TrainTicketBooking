@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TravelDetails</title>
+    <link rel="StyleSheet" href="Travel.css">
+</head>
+<body>
+<center>
+    <H1>Journey Details!</H1><br>
+    <form autocomplete="off" class="main">
+        <label id="start">Please select Starting point</label>
+        <select id="StartingPlaces">
+        <option value="Chennai">Chennai</option>
+        <option value="salem">Salem</option>
+        <option value="Madurai">Madurai</option>
+        <option value="Thiruchirapalli">Thiruchirapalli</option>
+        </select>
+        <br>
+        <label id="End">Please select Ending point</label>
+        <select id="EndingPlaces">
+            <option value="Chennai">Chennai</option>
+            <option value="salem">Salem</option>
+            <option value="Madurai">Madurai</option>
+            <option value="Thiruchirapalli">Thiruchirapalli</option>
+        </select>
+        <br>
+        <label id="date">Date of travel</label>
+        <input type ="date" id="calendar"><br>
+        <Button type = "button"  id="checkBt">Check Status</Button>
+    </form>
+</center>
+<script src="traincheck.js"></script>
+</body>
+</html>
